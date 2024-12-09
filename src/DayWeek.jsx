@@ -25,9 +25,9 @@ useEffect(()=>{
   
 
   return (
-    <div>
-      <button onClick={toggleday}>day </button>
-      <button onClick={toggleweek}>week  </button>
+    <div className="main">
+      <button onClick={toggleday}>Day </button>
+      <button onClick={toggleweek}>Week  </button>
       <div className="show">
           
           {showdata.length > 0 &&

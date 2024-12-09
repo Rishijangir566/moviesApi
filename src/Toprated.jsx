@@ -25,7 +25,7 @@ useEffect(()=>{
   
 
   return (
-    <div>
+    <div className="main">
       <button onClick={topratedmovie}>Top Rated Movies </button>
       <button onClick={topratedtvshow}>Popular Tv Show  </button>
       <div className="show">
